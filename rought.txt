@@ -1,0 +1,10 @@
+<!-- <?php if (isset($_GET['id'])){ ?>              
+               <?php }else{ ?>
+            <?php } ?> -->
+
+//relocate page on button tag
+            onclick="window.location.href='dashboard.php';"
+//relocate page on Anchor tag
+            href='dashboard.php';
+//relocate page on php header
+            header("location:dashboard.php");
